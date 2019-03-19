@@ -27,4 +27,4 @@ Register a OAuth Client in the Ambi Dev Portal by following the steps on the Qui
 * English   
 
 ## Acknowledgement
-Thanks to [alisdairjsmyth] (https://github.com/alisdairjsmyth) for developing the node-ambi-climate.
+Thanks to <a href="https://github.com/alisdairjsmyth">alisdairjsmyth</a> for developing the node-ambi-climate.
