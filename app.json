@@ -1,0 +1,155 @@
+{
+  "id": "com.ambiclimate",
+  "version": "0.9.0",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "name": {
+    "en": "Ambi Climate"
+  },
+  "description": {
+    "en": "Add wifi support for Ambi Climate devices"
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Mike Lim",
+    "email": "info@automate.asia"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "limkopi78"
+      }
+    }
+  },
+  "drivers": [
+    {
+      "id": "ambiclimate",
+      "name": {
+        "en": "Ambi Climate"
+      },
+      "images": {
+        "large": "/drivers/ambiclimate/assets/images/large.jpg",
+        "small": "/drivers/ambiclimate/assets/images/small.jpg"
+      },
+      "class": "thermostat",
+      "capabilities": [
+        "onoff",
+        "target_temperature",
+        "measure_temperature",
+        "measure_humidity",
+        "thermostat_mode"
+      ],
+      "mobile": {
+        "components": [
+          {
+            "id": "icon",
+            "capabilities": [
+              "onoff",
+              "target_temperature"
+            ]
+          },
+          {
+            "id": "sensor",
+            "capabilities": [
+              "measure_temperature",
+              "measure_humidity"
+            ]
+          }
+        ]
+      },
+      "pair": [
+        {
+          "id": "connect"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Ambi Climate Settings"
+          },
+          "children": [
+            {
+              "id": "email",
+              "type": "text",
+              "value": "",
+              "label": {
+                "en": "Email Address"
+              }
+            },
+            {
+              "id": "password",
+              "type": "text",
+              "value": "",
+              "label": {
+                "en": "Password"
+              }
+            },
+            {
+              "id": "clientId",
+              "type": "text",
+              "value": "",
+              "label": {
+                "en": "Client ID"
+              }
+            },
+            {
+              "id": "clientSecret",
+              "type": "text",
+              "value": "",
+              "label": {
+                "en": "Client Secret"
+              }
+            },
+            {
+              "id": "room_name",
+              "type": "text",
+              "value": "",
+              "label": {
+                "en": "Room Name"
+              }
+            },
+            {
+              "id": "location_name",
+              "type": "text",
+              "value": "",
+              "label": {
+                "en": "Location Name"
+              }
+            },
+            {
+              "id": "poll",
+              "type": "number",
+              "value": 10,
+              "attr": {
+                "min": 5,
+                "max": 60
+              },
+              "label": {
+                "en": "Poll Interval"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
