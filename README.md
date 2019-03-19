@@ -7,7 +7,7 @@ Initial release for Ambi Climate v2, supporting only on/off and retrieving curre
 Please note that, the target temperature and AC mode is currently read only as changing them will cause Ambi Climate to go into Manual mode (no longer on AI Comfort Mode). This is done intentionally.
 
 ## How to use
-Register a OAuth Client in the Ambi Dev Portal by following the steps on the Quick Start page. You require the Client Id and Client Secret of that client in order to use this app.
+Register a OAuth Client in the <a href"https://api.ambiclimate.com">Ambi Dev Portal</a> by following the steps on the Quick Start page. You require the Client Id and Client Secret of that client in order to use this app.
 
 ## Known Issues/Future release
 1. App will timeout during device search if you provide the wrong credentials, Client Id or Client Secret as the underlying API does not throw any error. This will be fixed when the underlying node module is updated
