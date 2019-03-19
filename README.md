@@ -10,7 +10,7 @@ Please note that, the target temperature and AC mode is currently read only as c
 Register a OAuth Client in the <a href="https://api.ambiclimate.com">Ambi Dev Portal</a> by following the steps on the Quick Start page. You require the Client Id and Client Secret of that client in order to use this app.
 
 ## Known Issues/Future release
-1. App will timeout during device search if you provide the wrong credentials, Client Id or Client Secret as the underlying API does not throw any error. This will be fixed when the underlying node module is updated
+1. App will proceed to perform device search and timeout if you provide the wrong credentials, Client Id or Client Secret as the underlying API does not throw any error. This will be fixed when the underlying node module is updated.
 2. Target temperature is currently read only. This is done intentionally as we should be using the comfort mode of the Ambi Climate where the AI sets its own temperature.
 3. AC Mode is currently read only. This is done intentionally as we should be using the comfort mode of the Ambi Climate where the AI sets its own mode.
 4. On and off will only activate the Comfort Mode or Off Mode.
