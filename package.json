@@ -398,6 +398,7 @@
       "resolved": "https://registry.npmjs.org/hoek/-/hoek-4.2.1.tgz",
       "version": "4.2.1"
     },
+    "homey-oauth2app": "^1.2.3",
     "http-signature": {
       "integrity": "sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=",
       "requires": {
