@@ -39,5 +39,4 @@ This app will redirect to Ambi Climate's login page to request for authenticatio
 * English  
 
 ## Trademark information
-The App creator has no affiliation with Ambi Labs, but is a 3rd party developer. Ambi Climate devices can be found at http://www.ambiclimate.com
-Ambi Labs, Ambi Climate, and their respective logos are trademarks of Ambi Labs Ltd.
+The App creator has no affiliation with Ambi Labs, but is a 3rd party developer. Ambi Climate devices can be found at http://www.ambiclimate.com. Ambi Labs, Ambi Climate, and their respective logos are trademarks of Ambi Labs Ltd.
